@@ -1,0 +1,25 @@
+{
+	"id": "hoangecg-vizrt-tricaster",
+	"name": "hoangecg: vizrt tricaster",
+	"shortname": "TC HoangECG",
+	"description": "TriCaster Vizion control module with LivePanel password authentication",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/HoangECG/companion-module-hoangecg-vizrt-tricaster.git",
+	"bugs": "https://github.com/HoangECG/companion-module-hoangecg-vizrt-tricaster/issues",
+	"maintainers": [
+		{
+			"name": "HoangECG"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "hoangecg",
+	"products": ["vizrt tricaster"],
+	"keywords": ["Switcher"]
+}

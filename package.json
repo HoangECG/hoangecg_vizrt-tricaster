@@ -1,0 +1,33 @@
+{
+	"name": "hoangecg-vizrt-tricaster",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier -w .",
+		"package": "companion-module-build",
+		"lint:raw": "eslint",
+		"lint": "yarn lint:raw ."
+	},
+	"type": "module",
+	"license": "MIT",
+	"dependencies": {
+		"@companion-module/base": "~1.13.0",
+		"fast-xml-parser": "^5.7.0",
+		"node-fetch": "^3.3.2",
+		"ws": "^8.21.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HoangECG/companion-module-hoangecg-vizrt-tricaster.git"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.8.0",
+		"eslint": "^9.27.0",
+		"prettier": "^3.5.3"
+	},
+	"engines": {
+		"node": "^22.12"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json",
+	"packageManager": "yarn@4.13.0"
+}
